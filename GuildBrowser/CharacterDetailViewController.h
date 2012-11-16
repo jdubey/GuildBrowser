@@ -4,7 +4,7 @@
 
 @interface CharacterDetailViewController : UIViewController
 
-@property (nonatomic, strong) Character *character;
+@property (nonatomic, strong) Character *character; 
 
 @property (nonatomic, weak) IBOutlet UILabel *name;
 @property (nonatomic, weak) IBOutlet UILabel *averageItemLevel;
