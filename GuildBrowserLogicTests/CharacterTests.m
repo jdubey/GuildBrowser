@@ -13,6 +13,7 @@
 @implementation CharacterTests
 {
     NSDictionary *_characterDetailJson;
+    Character *_testGuy;
 }
 
 - (void)setUp
@@ -30,6 +31,7 @@
     STAssertNotNil(json, @"Invalid test data");
     
     _characterDetailJson = json;
+    _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
 }
 
 - (void)tearDown
