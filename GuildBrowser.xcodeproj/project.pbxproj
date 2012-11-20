@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C961E456165AFC6800A356A9 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C961E453165AFC0900A356A9 /* libOCMock.a */; };
+		C961E457165AFD8E00A356A9 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC315E9A8DA00B3713E /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C961E458165AFD8E00A356A9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC515E9A8DA00B3713E /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C961E459165AFD8E00A356A9 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCC915E9A8DA00B3713E /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C961E45A165AFD8E00A356A9 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCCB15E9A8DA00B3713E /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C961E45B165AFD8E00A356A9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDCD215E9A8DA00B3713E /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C961E45C165AFD8E00A356A9 /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
+		C961E45F165B012800A356A9 /* GuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C961E45E165B012800A356A9 /* GuildTests.m */; };
+		C961E460165B037100A356A9 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C961E453165AFC0900A356A9 /* libOCMock.a */; };
 		CB02A18515EABA260085DBD6 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
 		CB02A18615EABA260085DBD6 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
 		CB02A18715EABA260085DBD6 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
@@ -93,6 +102,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C961E453165AFC0900A356A9 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
+		C961E45D165B012800A356A9 /* GuildTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuildTests.h; sourceTree = "<group>"; };
+		C961E45E165B012800A356A9 /* GuildTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuildTests.m; sourceTree = "<group>"; };
 		CB02A19B15EAFA720085DBD6 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		CB02A19C15EAFA720085DBD6 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		CB057B3715F85CB20053EED7 /* TestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSemaphor.h; sourceTree = "<group>"; };
@@ -192,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C961E460165B037100A356A9 /* libOCMock.a in Frameworks */,
 				CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */,
 				CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */,
 				CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */,
@@ -212,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C961E456165AFC6800A356A9 /* libOCMock.a in Frameworks */,
 				CBAB27C915E9CE620068516D /* SenTestingKit.framework in Frameworks */,
 				CBAB27CA15E9CE620068516D /* UIKit.framework in Frameworks */,
 				CBAB27CB15E9CE620068516D /* Foundation.framework in Frameworks */,
@@ -256,6 +270,7 @@
 		CB9FDC3E15E9872D00B3713E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C961E453165AFC0900A356A9 /* libOCMock.a */,
 				CB9FDC3F15E9872D00B3713E /* UIKit.framework */,
 				CB9FDC4115E9872D00B3713E /* Foundation.framework */,
 				CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */,
@@ -425,6 +440,8 @@
 				CB8DE52915EAB39C0065AB14 /* WowUtilsTests.m */,
 				CB39822215F6F74B009A2816 /* CharacterTests.h */,
 				CB39822315F6F74B009A2816 /* CharacterTests.m */,
+				C961E45D165B012800A356A9 /* GuildTests.h */,
+				C961E45E165B012800A356A9 /* GuildTests.m */,
 			);
 			path = GuildBrowserLogicTests;
 			sourceTree = "<group>";
@@ -647,6 +664,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C961E457165AFD8E00A356A9 /* AFHTTPClient.m in Sources */,
+				C961E458165AFD8E00A356A9 /* AFHTTPRequestOperation.m in Sources */,
+				C961E459165AFD8E00A356A9 /* AFJSONRequestOperation.m in Sources */,
+				C961E45A165AFD8E00A356A9 /* AFJSONUtilities.m in Sources */,
+				C961E45B165AFD8E00A356A9 /* AFURLConnectionOperation.m in Sources */,
+				C961E45C165AFD8E00A356A9 /* WoWApiClient.m in Sources */,
 				CB02A18515EABA260085DBD6 /* Character.m in Sources */,
 				CB02A18615EABA260085DBD6 /* Guild.m in Sources */,
 				CB02A18715EABA260085DBD6 /* Item.m in Sources */,
@@ -654,6 +677,7 @@
 				CB8DE52A15EAB39C0065AB14 /* WowUtilsTests.m in Sources */,
 				CB39822415F6F74B009A2816 /* CharacterTests.m in Sources */,
 				CB057B3915F85CB20053EED7 /* TestSemaphor.m in Sources */,
+				C961E45F165B012800A356A9 /* GuildTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,6 +787,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -774,6 +802,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -822,10 +854,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock\"",
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -840,10 +882,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/OCMock\"",
+					"\"$(SRCROOT)/OCMock/OCMock\"",
+				);
 				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/OCMock/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
