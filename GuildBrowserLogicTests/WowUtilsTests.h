@@ -2,7 +2,7 @@
 //  WowUtilsTests.h
 //  GuildBrowser
 //
-//  Created by Charlie Fulton on 8/26/12.
+//  Created by Joshua Dubey on 11/19/12.
 //  Copyright (c) 2012 Charlie Fulton. All rights reserved.
 //
 
